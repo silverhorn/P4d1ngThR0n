@@ -26,6 +26,7 @@ We're using the **Lafvin Tech Arduino kit** to build a Bluetooth-controlled robo
 
 - [x] Unbox and organize components
 - [x] Set up Arduino IDE
+- [ ] Test the pins for each component individually.
 - [ ] Test individual components
 - [ ] Build basic chassis
 - [ ] Implement motor control
