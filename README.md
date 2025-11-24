@@ -74,16 +74,16 @@ We're using the **Lafvin Tech Robot Car Kit** which includes:
 We're taking it step by step, testing each component before assembly:
 
 ### Phase 1: Component Testing *(In Progress)*
-- [ ] LED blink test (Arduino basics)
-- [ ] Motor driver test
-- [ ] Individual motor tests
-- [ ] Bluetooth module pairing
-- [ ] Sensor calibration
+- [x] LED blink test (Arduino basics)
+- [x] Motor driver test
+- [x] Individual motor tests
+- [x] Bluetooth module pairing
+- [x] Sensor calibration
 
 ### Phase 2: Integration
-- [ ] Motor control via serial commands
-- [ ] Bluetooth command reception
-- [ ] Basic movement (forward, backward, turn)
+- [x] Motor control via serial commands
+- [x] Bluetooth command reception
+- [x] Basic movement (forward, backward, turn)
 
 ### Phase 3: Advanced Features
 - [ ] Obstacle detection
