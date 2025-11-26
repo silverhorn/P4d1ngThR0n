@@ -89,7 +89,6 @@ We're taking it step by step, testing each component before assembly:
 - [ ] Obstacle detection
 - [ ] Line following
 - [ ] Speed control
-- [ ] Light effects
 
 *Each phase will include code samples, photos, and lessons learned!*
 
