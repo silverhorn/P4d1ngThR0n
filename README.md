@@ -96,7 +96,7 @@ We're taking it step by step, testing each component before assembly:
 
 ## 📸 Progress Gallery
 
-*Coming soon! We'll add photos and videos of our build process here.*
+![Alt text](https://raw.githubusercontent.com/silverhorn/P4d1ngThR0n/refs/heads/main/images/1.jpeg?token=GHSAT0AAAAAADPTIGPWSY4MFKGF3RZPBPTY2JGZ5RA)
 
 ---
 
