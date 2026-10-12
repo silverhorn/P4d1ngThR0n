@@ -31,15 +31,9 @@ After a lot of struggle, we realized we had to be **systematic**. We created a t
 ### Test Results:
 
 #### ✅ **WHEELS - FINALLY SOLVED!**
-- **Left wheel pair:**
-  - PWM pin: **5**
-  - Forward: pin 6=HIGH, pin 9=HIGH (others LOW)
-  - Backward: pin 2=HIGH, pin 4=HIGH, pin 6=HIGH, pin 9=HIGH
-
-- **Right wheel pair:**
-  - PWM pin: **11**
-  - Forward: pin 6=HIGH, pin 9=HIGH
-  - Backward: pin 2=HIGH, pin 3=HIGH, pin 4=HIGH, pin 6=HIGH, pin 9=HIGH
+- **Left wheel pair:** PWM pin **5**
+- **Right wheel pair:** PWM pin **11**
+- **Direction pins: to be confirmed.** The values noted earlier here (pins 2, 3, 4, 6, 9) did not match the test sketches. For example, `Test_Unazad-Finalno.ino` sets pins 7, 8, 10, 11, 12 and 13 for direction. The verified direction pins will be documented together with the final sketches.
 
 #### ✅ **ULTRASONIC SENSOR**
 - TRIG pin: **12**
@@ -54,6 +48,8 @@ After a lot of struggle, we realized we had to be **systematic**. We created a t
 ## What The Files Do
 
 ### 📁 **Main Files:**
+
+> Note: `Robot_Final_Complete.ino` and `Robot_Ultimate.ino` are described below but have not been uploaded to this repository yet.
 
 #### `Robot_Final_Complete.ino`
 - **Bluetooth control** of the robot
@@ -132,12 +128,8 @@ After a lot of struggle, we realized we had to be **systematic**. We created a t
 ```
 MOTORS:
 ├─ Left Pair (PWM pin 5)
-│  ├─ Forward: 6=HIGH, 9=HIGH
-│  └─ Backward: 2=HIGH, 4=HIGH, 6=HIGH, 9=HIGH
-│
-└─ Right Pair (PWM pin 11)
-   ├─ Forward: 6=HIGH, 9=HIGH
-   └─ Backward: 2=HIGH, 3=HIGH, 4=HIGH, 6=HIGH, 9=HIGH
+├─ Right Pair (PWM pin 11)
+└─ Direction pins: to be confirmed (see Test Results above)
 
 SENSORS:
 ├─ Ultrasonic Sensor
