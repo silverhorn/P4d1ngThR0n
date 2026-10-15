@@ -65,6 +65,18 @@ We're building a **Bluetooth-controlled 4WD robot car** from scratch using the *
 
 > Direction pins for the motors are documented in [`Test_Pins_And_Components`](Test_Pins_And_Components/README.md).
 
+### Bluetooth commands
+
+The HC-05 talks to the Arduino over Serial at 9600 baud. Send a single character from the phone app:
+
+| Command | Action |
+|---------|--------|
+| `F` | Forward |
+| `B` | Backward |
+| `L` | Turn left |
+| `R` | Turn right |
+| `S` | Stop |
+
 <!-- TODO: add a wiring diagram (Fritzing export), e.g. images/wiring.png -->
 
 ---
